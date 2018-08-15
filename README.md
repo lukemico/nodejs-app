@@ -1,4 +1,4 @@
-# LevelUp Watch Edition App Development Environment
+# LevelUp Watch Edition App 
 
 This application is a project developed via ThoughtWorks Levelup - Sydney program. The concept of the app is a Patient/Carer relationship alert system that notifies either user of upcoming appointments, health & medicine and emergency alert alarms in the case of a health emergency. 
 
@@ -22,16 +22,6 @@ Before you can setup your Proto Watch development environment, you need to have 
 3. Install [CCTray](http://en.freedownloadmanager.org/Windows-PC/CruiseControl-NET-CCTray-FREE.html)
 4. Git clone your teams repo - further instructions on cloning a repository can be found [here](https://help.github.com/articles/cloning-a-repository/)
 
-**Now run the initial setup and start the app!**
-
-```shell
-cd path_to_team_repo
-npm install
-npm start
-```
-
-You should now be able to view the demo Proto Watch app in your browser at [http://localhost:8080](http://localhost:8080)
-
 
 ### OS X Setup Instructions
 
@@ -44,6 +34,7 @@ The links below will help you get Git, Node, NPM and CCMenu installed using Home
 
 
 ## Installation 
+
 Clone the repo:
 
 ```
@@ -56,9 +47,9 @@ then follow instructions in the Starting Local Server section.
 
 
 ## Steps for starting a Local Server
+
 To start the server, run the following via the Command Line:
 
-**To run the initial setup and start the app!**
 
 ```shell
 cd nodejs-app
@@ -74,7 +65,7 @@ The script should run your initial setup, then start your app. You should now be
 
 
 ## Deployment
-View the [Live Demo]() here.
+View the [Live Demo](https://circleci.com/gh/twlevelup/syd-2018-sem1-jupiter)) here.
 
 
 ## Built With
@@ -92,7 +83,6 @@ These are the infrastructure tools used to automate various tasks in the develop
 
 # Continuous Integration
 This project is continuously deployed to GitHub Pages by [Circle CI](https://circleci.com).
-You can view this app at [https://twlevelup.github.io/syd-2018-sem1-jupiter/](https://twlevelup.github.io/syd-2018-sem1-jupiter/)
 
 [![CircleCI](https://circleci.com/gh/twlevelup/syd-2018-sem1-jupiter.svg?style=svg)](https://circleci.com/gh/twlevelup/syd-2018-sem1-jupiter)
 
