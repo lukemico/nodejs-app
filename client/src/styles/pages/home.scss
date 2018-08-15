@@ -1,0 +1,115 @@
+.home {
+  font-style: italic;
+}
+h1{
+	text-align: center;
+	margin-bottom:10px;
+}
+p {
+  text-align: center;
+  margin: 10px;
+}
+
+.homeIcon	{
+	display: inline-block;
+	position:absolute;
+	left: 42%;
+	top: 0px;
+}
+
+.homeIconSection {
+	padding-bottom: 16px;
+}
+
+.rightIcon	{
+	display: inline-block;
+	position:absolute;
+	right: 0;
+	top:96px;
+}
+
+.rightIcon2	{
+	display: inline-block;
+	position:absolute;
+	right: -15px;
+	top:96px;
+	width: 60px;
+}
+
+
+
+.leftIcon {
+	display: inline-block;
+	position:absolute;
+	left: 0;
+	top:96px;
+}
+
+.leftIconText {
+	position: absolute;
+	left: -11px;
+	top: 131px;
+	width: 30%;
+	font-size: 12px;
+	text-align: left;
+}
+
+.status {
+    background-color: pink;
+    text-transform: uppercase;
+    padding: 2px;
+    color: #3F484A;
+    font-size: 16px;
+}
+
+.bottomIcon {
+	display: inline-block;
+	position:absolute;
+	left: 100px;
+	top:190px;
+}
+
+
+
+.ambulance-start {
+	display: inline-block;
+	position:absolute;
+	left: 0;
+	top: 180px;
+	animation: drive 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes drive {
+	0% {left: 0}
+	100% {left: 95px}
+}
+
+
+.readyYes {
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	top: 45%;
+}
+
+.readyNo {
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+	top: 45%;
+}
+
+.ready-question {
+	background-color: pink;
+    text-transform: uppercase;
+    padding: 2px;
+    color: #3F484A;
+    font-size: 16px;
+}
+
+.readyNotification {
+	margin-top: 20%;
+	border: 2px solid pink;
+	padding: 16px 0 16px 0;
+}
