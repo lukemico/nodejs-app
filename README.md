@@ -1,4 +1,4 @@
-# LevelUp Watch Edition App Development Environment
+# LevelUp Watch Edition App 
 
 This application is a project developed via ThoughtWorks Levelup - Sydney program. The concept of the app is a Patient/Carer relationship alert system that notifies either user of upcoming appointments, health & medicine and emergency alert alarms in the case of a health emergency. 
 
